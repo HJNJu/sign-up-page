@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up • Catstagram</title>
+    <link rel="stylesheet" href="global-style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cat.css">
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAA3PUAAAAAAAOvr6wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERIAAAAhERERIAAAAAIREREgAAAAACIRESAAAAAAACERIAAAAAIgAhEgAAAAAhICERIAAAAhEgIRESAAACEgAhERIAAAESAhERIAAAAiACERIAAAAAIgIREgAAAAAiAhERIAAAAhICEREgAAACESERESACIAIRERERICESAhERHgHwAAwA8AAMADAADAAQAAwAAAAMAIAADgGAAA8BAAAPAxAADgAQAAwAEAAMABAADgEQAA4BsAAOAfAADjHwAA" rel="icon" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="cat">
+      <div class="ear left-ear">
+        <div class="ear left-ear left-ear-inside"></div>
+      </div>
+      <div class="ear right-ear">
+        <div class="ear right-ear right-ear-inside"></div>
+      </div>
+      <div class ="face">
+        <div class="eye left-eye">
+          <div class="eye left-eye left-eye-tip"></div>
+          <div class="pupil">
+            <div class="glare"></div>
+          </div>
+        </div>
+        <div class="eye right-eye">
+          <div class="eye right-eye right-eye-tip"></div>
+          <div class="pupil">
+            <div class="glare"></div>
+          </div>
+          </div>
+        </div>
+        <div class="nose"></div>
+      </div>
+    </div>
+
+    <div class="main-box">
+      <img
+        class="logo"
+        src="./catstagram-logo.png"
+        alt="CATSTAGRAM_LOGO"
+      />
+      <fieldset>
+        <input type="text" id="username" placeholder="아이디" />
+      </fieldset>
+      <div class="failure-message hide">영문 및 숫자 4자 이상</div>
+
+      <fieldset>
+        <input type="password" class="password" id="password" placeholder="비밀번호" disabled/>
+      </fieldset>
+
+      <fieldset>
+        <input
+          type="password" class="password-retype" id="password-retype" placeholder="비밀번호 확인" disabled/>
+      </fieldset>
+      <div class="strongpassword-message hide">영문, 숫자, 특수문자 포함 8자 이상</div>
+      <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
+
+      <fieldset class="signup">
+        <button class="signup-btn" disabled>Sign up</button>
+      </fieldset>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

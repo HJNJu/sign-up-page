@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  color: #8E8E8E;
+  background-color: #FFFFFF;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background-color: #FAFAFA;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px 50px 30px;
+  border: 1px solid #DBDBDB;
+}
+
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #DBDBDB;
+  background-color: #FAFAFA;
+  justify-content: center;
+  margin: 4px;
+  padding: 6px 12px;
+}
+
+.main-box > div {
+  color: #ED4956;
+  font-size: 12px;
+  padding: auto;
+}
+
+.logo {
+  margin: auto;
+  width: 160px;
+}
+
+.signup {
+  background-color: #FFFFFF;
+}
+
+.signup-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin: 4px;
+  width: 13.75rem;
+  height: 1.81rem;
+  color: white;
+  background-color: #1A77F2;
+  font-size: 12px;
+}
+
+.signup-btn[disabled] {
+  background-color: #67B6F9;
+  cursor: not-allowed;
+}
+
+
+input {
+  border: none;
+  background-color: #FAFAFA;
+  width: 12rem;
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.signup {
+  border: none;
+}
